@@ -13,9 +13,15 @@ For this project, both base PPO and Recurrent PPO are trained on two types of st
 
 ![complex](https://github.com/user-attachments/assets/4948417d-47ca-4ec2-abb0-94531542ff38)
 
-# Demo
+# Project Report
+For more detailed report on the project and the progress, can look into this notion page where all of the progress are documented
+https://aquatic-reaction-068.notion.site/Mastering-Pok-mon-Battles-via-Recurrent-Reinforcement-Learning-1bd958f75c6380a5a20bf3aadb75737e
 
-put demo here
+
+# Demo
+This is an example fight of Recurrent PPO vs PPO with Simple State Features  
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sdo3D9xBIxw/0.jpg)](https://www.youtube.com/watch?v=sdo3D9xBIxw)
 
 # Tutorial
 1. Clone the repository and install the dependencies
@@ -41,6 +47,7 @@ node pokemon-showdown start --no-security
 python training.py --state simple --algo recurrentppo
 ```
 4. Run crosseval.py to cross evaluation against all models
+(Required for all models to be available, can download pre-trained model below)
 
 `--episodes`: Specify number of episodes each (Optional) (default = 100)  
 ```
