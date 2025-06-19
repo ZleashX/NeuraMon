@@ -62,3 +62,6 @@ python fightonline.py
 Download the pre-trained models here and paste it into the root if you didn't plan to train all the model by yourself.
 https://drive.google.com/file/d/1PwbTvrLWEtg5xalvvLeUcjX_0CuMtt_r/view?usp=sharing
 
+# Conclusion and Future Work
+For conclusion, recurrent layer does improve performance on the complex state features. However, due to time constraint, the model didn't get trained long enough. For future work, I wanted to train the model for longer time given more time and computing power and see how much performance gained it can achieve. I also wanted to take a look at other memory-augmented techniques like attention mechanism and transformer model to see whether it can further improve the performance.
+
